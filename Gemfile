@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in cli_project.gemspec
-gemspec
-
+gem "dotenv"  #The docs states  "as early as posible"
 gem "rake", "~> 12.0"
+gem "rspec", "~> 3.0"
+gem "httparty"
+gem "pry"
