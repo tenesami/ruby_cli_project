@@ -22,7 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The user of these app is any one who love to know more about holidays avaliable in the world
+Display all the holidays available to the world user can be able to chose the holiday they like to see the details 
+The data is come from the api 
+
+The CLI class main role is interact with the user or making user a question and delivering answer to the question 
+
+The API class main role is to bring API data from the internet to my local cli program  
+
+The Holiday class main role is to manipulate the api data attribute 
+
 
 ## Development
 
