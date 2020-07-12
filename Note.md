@@ -8,8 +8,8 @@ welcome World Holidays CLI Project
     - county celebrated
     - name of the holiday
 4. Ask user to press y to continue or any key to exit.
-    if user press y it desplay the mene agin if user desplay any 
-    other key it exit the program by saying thank you for using this
+    if user press y it desplay the mene agin if user hit any 
+    other key exit the program by saying thank you for using this
     cli project 
 
 This cli Prject uses apiKey and hides the apiKey
