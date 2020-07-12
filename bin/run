@@ -1,6 +1,8 @@
-#!/usr/bin/env ruby 
-
-require_relative "../config/environment.rb"
+#setup the defalut route to be env ruby 
+#!/usr/bin/env ruby
+ 
+#configure the enviroment 
+require_relative "../config/environment.rb" 
 
 #Instanciate the CLI class 
 instance = CLI.new
