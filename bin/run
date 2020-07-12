@@ -2,7 +2,7 @@
 
 require_relative "../config/environment.rb"
 
-#CLI.new.start
+#Instanciate the CLI class 
 instance = CLI.new
 instance.start
 
