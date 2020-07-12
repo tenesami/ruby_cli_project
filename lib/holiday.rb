@@ -4,7 +4,7 @@ class Holiday
     @@all = []
 
     def initialize(attr_hash)
-        # can we refactor this code to make it clean?
+        # Intialize the holiday attributes
         @name = attr_hash[:name]
         @description = attr_hash[:description]
         @country = attr_hash[:country]
@@ -15,10 +15,12 @@ class Holiday
         save
     end
 
+    #desplay all attributes of the holiday class
     def self.all
         @@all 
     end
    
+    #save the attributes 
      def save
          @@all << self
      end
