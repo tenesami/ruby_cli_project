@@ -5,18 +5,18 @@ class API
     def get_holiday_info
         respo = HTTParty.get(BASE_URL)
         
-    #     #make request to the rworld bank 
-    #     holi_arr = respo["response"]["holidays"]
-    #        holi_arr.each do |response_hash|                     
-    #                   holi_hash = {
-    #                     country: response_hash["country"]["name"],
-    #                     name: response_hash["name"],
-    #                     date: response_hash["date"]["iso"],
-    #                     description: response_hash["description"]                         
-    #                   }                     
-    # Holiday.new(holi_hash)
-    # #binding.pry
-    #      end
+        #make request to the world holidays  
+        holi_arr = respo["response"]["holidays"]
+           holi_arr.each do |response_hash|                     
+                      holi_hash = {
+                        country: response_hash["country"]["name"],
+                        name: response_hash["name"],
+                        date: response_hash["date"]["iso"],
+                        description: response_hash["description"]                         
+                      }                     
+    Holiday.new(holi_hash)
+    #binding.pry
+         end
          
     end
 end
