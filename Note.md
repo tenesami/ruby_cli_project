@@ -1,21 +1,25 @@
-welcome Best Walmart online shop
+welcome World Holidays CLI Project
 
-Menu 
-1. view product 
-2. Exit
+1. Desplays all holidays in the world corspondece with number
+2. Ask user to choose corspondece number to see the detalis of the holiday 
+3. Desplay the holiday details such as 
+    - date of the holiday
+    - describtion of the holiday
+    - county celebrated
+    - name of the holiday
+4. Ask user to press y to continue or any key to exit.
+    if user press y it desplay the mene agin if user desplay any 
+    other key it exit the program by saying thank you for using this
+    cli project 
 
-1
-1. check price 
-3. check avalibilty 
-
-2. exit the program
+This cli Prject uses apiKey and hides the apiKey
+Validates user input
+loop or iterate over the api and display the name of the holidays
 
 
-question
-1. requirment of the project
-2. selecting the right api
-3. the due date
-4. how to connect with the github
-5. stracturing or organizing the user interface or the cli class
+ 
 
-6. would it be okey to build the cli project useing the product key for the comming cli porject?
+
+
+
+
